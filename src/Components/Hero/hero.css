@@ -1,0 +1,19 @@
+.hero {
+    background-image: url("../../assets/header-x2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 480px;
+    max-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-bottom: 50px;
+}
+.hero h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: white;
+}

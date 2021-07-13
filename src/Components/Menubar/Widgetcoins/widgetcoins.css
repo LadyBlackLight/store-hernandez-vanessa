@@ -1,0 +1,45 @@
+.widget-coins {
+    display: inherit;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+}
+.widget-coins h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    color: #616161;
+}
+.coins {
+    display: inherit;
+    flex-wrap: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    background: #ededed;
+    border-radius: 32px;
+    padding: 0px 11px;
+    width: 51%;
+}
+.coins p {
+    font-weight: 400;
+    color: #616161;
+    font-size: 24px;
+    line-height: 48px;
+}
+.add{
+    background: #42a2e3;
+    width: 21px;
+    height: 21px;
+    border: none;
+    border-bottom: 4px solid #1e5b89;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+.add:hover{
+    background: #1e5b89;
+    border-bottom: 4px solid #42a2e3;
+}

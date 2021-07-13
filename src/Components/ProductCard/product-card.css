@@ -1,0 +1,100 @@
+.product-card {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 276px;
+    height: 276px;
+    margin: 0 0 24px 5px;
+    padding: 24px;
+    position: relative;
+}
+.product-card .hover {
+    box-shadow: 5px 5px 20px 5px #9e9e9e, -5px -5px 23px #9e9e9e;
+    transform: matrix(1, 0, 0, 1, 0, -3);
+}
+.bag {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+.product-image {
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 1px solid #d9d9d9;
+}
+.category {
+    font-size: 16px;
+    line-height: 20px;
+    color: #a3a3a3;
+    font-weight: 400;
+}
+.name {
+    font-size: 18px;
+    line-height: 23px;
+    color: #616161;
+    font-weight: 400;
+}
+.no-hover {
+    display: none;
+}
+.hover {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 276px;
+    height: 276px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 24px;
+    background: linear-gradient(180deg, rgba(10, 212, 250, 0.86) 0%, rgba(37, 187, 241, 0.86) 100%);
+}
+.hover-coins{
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+    border-bottom: none !important;
+}
+.hover p {
+    color: white;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+}
+.hover button {
+    border: none;
+    background: white;
+    border-radius: 21px;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #616161;
+    padding: 11px 52px;
+    cursor: pointer;
+}
+.no-redeem {
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+    justify-content: space-between;
+    width: 142px;
+    background: rgba(97, 97, 97, 0.8);
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: white;
+    border-radius: 100px;
+    padding: 11px 13px;
+    text-align: center;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+.no-redeem img{
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,16 @@
+.filters-container {
+    margin-top: 64px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.by {
+    font-size: 24px;
+    line-height: 48px;
+    color: #a3a3a3;
+    font-weight: 400;
+    padding: 0 24px;
+}
