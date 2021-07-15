@@ -7,6 +7,7 @@ export const AppProvider = (props) => {
   const [products, setProducts] = useState([]);
   const [points, setPoints] = useState([]);
   const [user, setUser] = useState("");
+  const [history, setHistory]= useState([]);
 
   useEffect(() => {
       const headers = {
@@ -38,12 +39,13 @@ export const AppProvider = (props) => {
         .then((data) => {
             console.log("User", data)
             setUser(data.name);
-            setPoints(data.points)
+            setPoints(data.points);
+            setHistory(data.redeemHistory)
         });
-}, []);
+}, [points]);
 
   return (
-    <AppContext.Provider value={{ products, setProducts, points, setPoints, user, setUser }}>
+    <AppContext.Provider value={{ products, setProducts, points, setPoints, user, setUser, history, setHistory}}>
       {props.children}
     </AppContext.Provider>
   );

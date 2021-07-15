@@ -41,6 +41,7 @@ function App() {
         categoria={categoria.category}
         nombre={categoria.name}
         precio={categoria.cost}
+        id={categoria._id}
         points={points} />)
   })
   return (

@@ -30,7 +30,8 @@ export default function Widgetcoins() {
                         return respuesta.json();
                     })
                     .then((data) => {
-                        console.log("API de Points", data)
+                        console.log("API de Points", data['New Points'])
+                        setPoints(data['New Points'])
                     });
             }
     }

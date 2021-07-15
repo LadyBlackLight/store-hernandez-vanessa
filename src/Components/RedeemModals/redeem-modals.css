@@ -1,0 +1,102 @@
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-error {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    justify-content: center;
+    background: #f3b39d;
+    background: -moz-linear-gradient(45deg, #f3b39d 0%, #f1a59c 28%, #ee8e9b 100%);
+    background: -webkit-linear-gradient(45deg, #f3b39d 0%, #f1a59c 28%, #ee8e9b 100%);
+    background: linear-gradient(
+        45deg,
+        #f3b39d 0%,
+        #f1a59c 28%,
+        #ee8e9b 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3b39d', endColorstr='#ee8e9b',GradientType=1 );
+    margin: auto;
+    padding: 20px;
+    width: 30%;
+    border-radius: 28px;
+    box-shadow: 10px 1px 7px 2px #818481;
+    position: relative;
+}
+.modal-error img,
+.modal-success img {
+    width: 20%;
+    margin: 20px 0;
+}
+.btn-m{
+    margin: 26px 0;
+    background-color: white;
+    border: navajowhite;
+    width: 186px;
+    height: 46px;
+    border-radius: 93px;
+    letter-spacing: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.su{
+    box-shadow: 5px 4px 3px 1px #6d966e;
+    color: #a3e2c8;
+}
+.er{
+    color: #f0a6bc;
+    box-shadow: 5px 4px 3px 1px #a56f7f;
+}
+.modal-success {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    justify-content: center;
+    background: #b1dc7d;
+    background: -moz-linear-gradient(-45deg, #b1dc7d 0%, #a5da97 67%, #9ddba9 100%);
+    background: -webkit-linear-gradient(-45deg, #b1dc7d 0%, #a5da97 67%, #9ddba9 100%);
+    background: linear-gradient(135deg, #b1dc7d 0%, #a5da97 67%, #9ddba9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1dc7d', endColorstr='#9ddba9',GradientType=1 );
+    margin: auto;
+    padding: 20px;
+    width: 30%;
+    border-radius: 28px;
+    box-shadow: 10px 1px 7px 2px #818481;
+    position: relative;
+}
+h2 {
+    color: white;
+    letter-spacing: 5px;
+    margin: 10px 0;
+}
+.message{
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+.close {
+    color: white;
+    font-size: 28px;
+    top: 3px;
+    right: 22px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
