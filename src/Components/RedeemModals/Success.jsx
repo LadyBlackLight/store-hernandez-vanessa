@@ -9,8 +9,8 @@ export default function Success(props) {
     }
     return (
         <div className="modal">
-            <div class="modal-success">
-                <span class="close" onClick={close}>&times;</span>
+            <div className="modal-success">
+                <span className="close" onClick={close}>&times;</span>
                 <img src={happy} alt="Happy face" />
                 <h2>SUCCESS!</h2>
                 <p className="message">{props.message}</p>

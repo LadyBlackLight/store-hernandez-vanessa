@@ -6,3 +6,23 @@
     padding: 16px 0;
     background-color: white;
 }
+.navegacion {
+    list-style: none;
+    display: inherit;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.navegacion li {
+    margin-right: 20px;
+}
+.navegacion li a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    color: #ed7833;
+    text-decoration: none;
+}
+.navegacion li a:hover{
+    color: #1f5c8a;
+}

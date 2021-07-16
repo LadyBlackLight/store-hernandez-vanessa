@@ -5,7 +5,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-around;
 }
 .by {
     font-size: 24px;

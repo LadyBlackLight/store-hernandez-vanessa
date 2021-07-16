@@ -12,3 +12,6 @@
     padding: 0 24px;
     outline: none;
 }
+.category-filter{
+    display: flex;
+}

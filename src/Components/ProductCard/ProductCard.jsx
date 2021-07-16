@@ -1,6 +1,5 @@
-import React, { useState, useContext } from 'react';
+import React, { useState} from 'react';
 import './product-card.css';
-import { AppContext } from '../AppContext/AppContext';
 import coin from "../../assets/icons/coin.svg";
 import bagBlue from "../../assets/icons/buy-blue.svg";
 import bagWhite from "../../assets/icons/buy-white.svg";

@@ -1,4 +1,5 @@
-import React, { useContext} from 'react';
+import React, { useContext } from 'react';
+import './history.css'
 import { AppContext } from '../../AppContext/AppContext';
 
 export default function History() {
@@ -7,13 +8,16 @@ export default function History() {
     return (
         <div className="history">
             <div className="container">
-                {history.map((historial) => {
-                    return <div key={historial.createDate}>
-                        <h3>{historial.name}</h3>
-                        <p>{historial.createDate}</p>
-                        <p>{historial.cost}</p>
-                    </div>
-                })}
+                <h3 className="title">Historial de redenciones</h3>
+                <div className="redeemContainer">
+                    {history.map((historial) => {
+                        return <div key={historial.createDate} className="redeemProduct">
+                            <h3>{historial.name}</h3>
+                            <p>Date: {historial.createDate}</p>
+                            <p>Cost: {historial.cost}</p>
+                        </div>
+                    })}
+                </div>
             </div>
         </div>
     )

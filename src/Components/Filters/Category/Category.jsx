@@ -5,6 +5,7 @@ export default function Category(props) {
 
     return (
         <div className="category-filter">
+            <p className="by">Sort by:</p>
             <select key={props.categoria}
              onChange={props.handleCategoria}
              value={props.categoria}

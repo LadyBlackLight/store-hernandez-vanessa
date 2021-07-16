@@ -1,0 +1,21 @@
+.history {
+    margin-top: 20px;
+}
+.history .title {
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 80px;
+    text-align: center;
+}
+.redeemContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.redeemProduct{
+    width: 20%;
+    margin: 10px 5px;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+}
