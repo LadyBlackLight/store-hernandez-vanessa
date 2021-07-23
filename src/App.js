@@ -1,13 +1,13 @@
 import React from 'react';
 
 import './App.css';
-import Principal from './Components/Principal';
+import Principal from './Components/Principal/Principal';
 
 function App() {
   return (
-    <div>
+    <>
       <Principal/>
-    </div>
+    </>
   )
 }
 

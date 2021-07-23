@@ -7,7 +7,7 @@ import Category from './Category/Category';
 export default function Filters(props) {
 
     return (
-        <div className="filters">
+        <section className="filters">
             <div className="container">
                 <div className="filters-container">
                     <ProductCounter />
@@ -27,6 +27,6 @@ export default function Filters(props) {
                     />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

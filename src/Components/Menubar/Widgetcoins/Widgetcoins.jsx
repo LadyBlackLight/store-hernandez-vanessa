@@ -1,12 +1,12 @@
 import React, { useState, useContext } from 'react'
 import './widgetcoins.css';
-import { AppContext } from '../../AppContext/AppContext';
+import { AppContext } from '../../../AppContext/AppContext';
 import coin from '../../../assets/icons/coin.svg'
 import AddCoins from '../AddCoins/AddCoins';
 
 export default function Widgetcoins() {
     const {points, setPoints} = useContext(AppContext);
-    const {user, setUser} = useContext(AppContext);
+    const {user} = useContext(AppContext);
     const [modal, setModal] = useState("hide");
     const [addPoints, setAddPoints] = useState(0)
 
@@ -14,7 +14,6 @@ export default function Widgetcoins() {
         setModal(modal === "hide" ? "show" : "hide")
     }
     const handleCoins = (addPoints) => {
-        console.log("Add Points",addPoints)
         setAddPoints(addPoints)
             if (addPoints > 0) {
                 const headers = {
@@ -30,7 +29,6 @@ export default function Widgetcoins() {
                         return respuesta.json();
                     })
                     .then((data) => {
-                        console.log("API de Points", data['New Points'])
                         setPoints(data['New Points'])
                     });
             }

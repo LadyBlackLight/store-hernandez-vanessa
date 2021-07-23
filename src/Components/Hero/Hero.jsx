@@ -3,10 +3,10 @@ import './hero.css'
 
 export default function Hero() {
     return (
-        <div className="hero">
+        <section className="hero">
             <div className="container">
                 <h1>Electronics</h1>
             </div>
-        </div>
+        </section>
     )
 }

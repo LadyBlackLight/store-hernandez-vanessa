@@ -1,7 +1,7 @@
 import React from 'react';
 import './menubar.css';
 import logo from '../../assets/aerolab-logo.svg';
-import Navegacion from '../Navegacion';
+import Navegacion from './Navegacion/Navegacion';
 import Widgetcoins from './Widgetcoins/Widgetcoins';
 
 export default function Menubar() {

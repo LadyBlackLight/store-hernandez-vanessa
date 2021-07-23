@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import './history.css'
-import { AppContext } from '../../AppContext/AppContext';
+import { AppContext } from '../../../AppContext/AppContext';
 
 export default function History() {
     const { history } = useContext(AppContext);

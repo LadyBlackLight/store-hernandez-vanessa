@@ -20,7 +20,6 @@ export const AppProvider = (props) => {
               return respuesta.json();
           })
           .then((data) => {
-              console.log(data)
               setProducts(data)
           });
   }, []);
@@ -37,7 +36,6 @@ export const AppProvider = (props) => {
             return respuesta.json();
         })
         .then((data) => {
-            console.log("User", data)
             setUser(data.name);
             setPoints(data.points);
             setHistory(data.redeemHistory)

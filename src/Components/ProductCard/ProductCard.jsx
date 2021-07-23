@@ -18,7 +18,6 @@ export default function ProductCard(props) {
     }
     const handleRedeem = (redeem) => {
         setRedeem(redeem);
-        console.log("Redeem", redeem);
         const headers = {
             "Content-type": "application/json",
             Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZWRkOWU5OTQ0NGZlNDAwNmRhOTkyNGQiLCJpYXQiOjE1OTE1ODIzNjF9.-f40dyUIGFsBSB_PTeBGdSLI58I21-QBJNi9wkODcKk"
@@ -32,7 +31,6 @@ export default function ProductCard(props) {
                 return respuesta.json();
             })
             .then((data) => {
-                console.log("API de Redeem", data);
                 setError(false)
                 setMessage(data.message)
             })
