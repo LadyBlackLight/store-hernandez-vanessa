@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/store-hernandez-vanessa/static/css/main.4acf857e.chunk.css",
-    "main.js": "/store-hernandez-vanessa/static/js/main.5e322959.chunk.js",
-    "main.js.map": "/store-hernandez-vanessa/static/js/main.5e322959.chunk.js.map",
+    "main.css": "/store-hernandez-vanessa/static/css/main.94acb4be.chunk.css",
+    "main.js": "/store-hernandez-vanessa/static/js/main.ae24e438.chunk.js",
+    "main.js.map": "/store-hernandez-vanessa/static/js/main.ae24e438.chunk.js.map",
     "runtime-main.js": "/store-hernandez-vanessa/static/js/runtime-main.25c08926.js",
     "runtime-main.js.map": "/store-hernandez-vanessa/static/js/runtime-main.25c08926.js.map",
-    "static/js/2.ea779db1.chunk.js": "/store-hernandez-vanessa/static/js/2.ea779db1.chunk.js",
-    "static/js/2.ea779db1.chunk.js.map": "/store-hernandez-vanessa/static/js/2.ea779db1.chunk.js.map",
+    "static/js/2.053624ba.chunk.js": "/store-hernandez-vanessa/static/js/2.053624ba.chunk.js",
+    "static/js/2.053624ba.chunk.js.map": "/store-hernandez-vanessa/static/js/2.053624ba.chunk.js.map",
     "static/js/3.e47b5e6f.chunk.js": "/store-hernandez-vanessa/static/js/3.e47b5e6f.chunk.js",
     "static/js/3.e47b5e6f.chunk.js.map": "/store-hernandez-vanessa/static/js/3.e47b5e6f.chunk.js.map",
     "index.html": "/store-hernandez-vanessa/index.html",
-    "static/css/main.4acf857e.chunk.css.map": "/store-hernandez-vanessa/static/css/main.4acf857e.chunk.css.map",
-    "static/js/2.ea779db1.chunk.js.LICENSE.txt": "/store-hernandez-vanessa/static/js/2.ea779db1.chunk.js.LICENSE.txt",
+    "static/css/main.94acb4be.chunk.css.map": "/store-hernandez-vanessa/static/css/main.94acb4be.chunk.css.map",
+    "static/js/2.053624ba.chunk.js.LICENSE.txt": "/store-hernandez-vanessa/static/js/2.053624ba.chunk.js.LICENSE.txt",
     "static/media/aerolab-logo.0a8fb170.svg": "/store-hernandez-vanessa/static/media/aerolab-logo.0a8fb170.svg",
     "static/media/buy-blue.c5c4f01c.svg": "/store-hernandez-vanessa/static/media/buy-blue.c5c4f01c.svg",
     "static/media/buy-white.c4028bb8.svg": "/store-hernandez-vanessa/static/media/buy-white.c4028bb8.svg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.25c08926.js",
-    "static/js/2.ea779db1.chunk.js",
-    "static/css/main.4acf857e.chunk.css",
-    "static/js/main.5e322959.chunk.js"
+    "static/js/2.053624ba.chunk.js",
+    "static/css/main.94acb4be.chunk.css",
+    "static/js/main.ae24e438.chunk.js"
   ]
 }
